@@ -1,0 +1,33 @@
+{
+  "name": "@lenmorld/demo-is-even",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lenmorld/monorepo-1",
+    "directory": "packages/demo-is-even"
+  },
+  "version": "1.0.1",
+  "description": "is even package",
+  "author": "Lenmor Dimanalata <lenmorld@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/demo-is-even.js",
+  "types": "dist/demo-is-even.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "npx lerna run build --scope=demo-is-even && jest"
+  },
+  "dependencies": {
+    "demo-is-odd": "^1.0.0"
+  },
+  "devDependencies": {
+    "jest": "^30.0.5",
+    "typescript": "^5.8.3"
+  }
+}
