@@ -592,13 +592,13 @@
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
 "@lenmor-invoicesimple/demo-is-even@file:/Users/lenmor/monorepo-test-1/packages/demo-is-even":
-  version "1.1.0"
+  version "1.1.1"
   resolved "file:packages/demo-is-even"
   dependencies:
     demo-is-odd "^1.0.0"
 
 "@lenmor-invoicesimple/demo-is-odd@file:/Users/lenmor/monorepo-test-1/packages/demo-is-odd":
-  version "1.1.0"
+  version "1.1.1"
   resolved "file:packages/demo-is-odd"
 
 "@lerna/create@8.2.3":
@@ -2043,7 +2043,7 @@ delayed-stream@~1.0.0:
   integrity sha512-ZySD7Nf91aLB0RxL4KGrKHBXl7Eds1DAmEdcoVawXnLD7SDhpNgtuII2aAkg7a7QS41jxPSZ17p4VdGnMHk3MQ==
 
 demo-is-odd@^1.0.0:
-  version "1.1.0"
+  version "1.1.1"
   resolved "file:packages/demo-is-odd"
 
 deprecation@^2.0.0:
