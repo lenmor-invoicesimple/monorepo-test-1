@@ -21,7 +21,7 @@
   ],
   "scripts": {
     "build": "tsc",
-    "test": "npx lerna run build --scope=demo-is-even && jest"
+    "test": "npm run build && jest"
   },
   "dependencies": {
     "demo-is-odd": "^1.0.0"
