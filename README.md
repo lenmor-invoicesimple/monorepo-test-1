@@ -18,3 +18,5 @@ npx lerna version
 
 # publish
 npx lerna publish from-package
+
+test
