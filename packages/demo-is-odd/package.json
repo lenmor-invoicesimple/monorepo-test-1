@@ -2,12 +2,12 @@
   "name": "@lenmor-invoicesimple/demo-is-odd",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lenmorld/monorepo-1",
+    "url": "https://github.com/lenmor-invoicesimple/monorepo-test-1",
     "directory": "packages/demo-is-odd"
   },
   "version": "1.0.2",
   "description": "is odd package",
-  "author": "Lenmor Dimanalata <lenmorld@gmail.com>",
+  "author": "Lenmor Dimanalata <lenmor@invoicesimple.com>",
   "homepage": "",
   "license": "ISC",
   "main": "dist/demo-is-odd.js",
